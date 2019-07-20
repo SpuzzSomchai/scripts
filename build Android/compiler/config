@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+mROM=havoc
+mDEVICE=sanders
+After_Date=`date --date="" +%Y%m%d`
+mOUT=~/$mROM/out/target/product/$mDEVICE
+mBUILDZIP="Ha*.zip"
+export USE_CCACHE=1
+export CCACHE_DIR=$HOME/.ccache-pie/aosp/
+
+token="key"
+chat_id='chat_id'
+
+export LC_ALL=C  #Obrigatorio quando usa novo sistema
+
