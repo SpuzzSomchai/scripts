@@ -1,0 +1,8 @@
+option echo off 
+option batch on 
+option confirm off 
+open sftp://user:password@0.0.0.0
+
+#copy an entire folder 
+put -nopermissions -nopreservetime "C:\BACKUPS\upload" /backup/servidor-2
+exit
