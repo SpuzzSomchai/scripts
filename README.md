@@ -13,4 +13,4 @@ São alguns scripts que automatiza alguns processos.
 ## Autor
 
 Jadilson Guedes <jadilson12@gmail.com>  
-License MIT 
+License MIT <https://jadilson12.mit-license.org/>
